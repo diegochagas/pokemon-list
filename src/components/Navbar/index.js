@@ -40,7 +40,7 @@ function Navbar() {
         if (searchField.length < 3) {
             alert('Type a valid Pokemon name');
         } else {
-            history.push(`/#/results/${searchField}`);
+            history.push(`/pokemon-list/#/results/${searchField}`);
 
             window.location.reload();
         }

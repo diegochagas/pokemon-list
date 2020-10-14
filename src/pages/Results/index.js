@@ -39,7 +39,7 @@ function Results({ match }) {
 
             alert(`${pokemon.name} added to the list of favorites`);
 
-            history.push('/#/favorites');
+            history.push('/pokemon-list/#/favorites');
 
             window.location.reload();
         }

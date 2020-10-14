@@ -11,7 +11,7 @@ import GlobalStyle from './styles/global';
 function App() {
   return (
     <Provider store={store}>
-      <HashRouter history={history}>
+      <HashRouter basename="/" history={history}>
         <Navbar />
         
         <div className="App">
